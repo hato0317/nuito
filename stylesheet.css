@@ -1,0 +1,719 @@
+.top-wrapper{
+  margin-top:150px;
+  height:737px;
+}
+.top-wrapper img{
+  width:15%;
+  height:70%;
+  margin:auto;
+  display:flex;
+}
+#scrollhead{
+  position:fixed;
+  top:0;
+  background-color:white;
+  width:100%;
+  z-index:1;
+  height:55px;
+  padding-top:20px;
+}
+.header-image{
+  display:table-cell;
+  vertical-align:middle;
+}
+.header-image img{
+  margin-left:80px;
+  height:65%;
+  width:40%;
+
+}
+.header-menu {
+ display:table-cell;
+ vertical-align:middle;
+  padding-left:300px;
+}
+.header-menu a{
+  padding:7px;
+  color:black;
+  text-decoration:none;
+  font-size:18px;
+
+}
+.ticket{
+  background-image:url("http://nuito.org/images/image_bg_live.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:1400px;
+  color:white;
+  list-style: none;
+  margin-bottom:0;
+}
+.ticket-first{
+  width:972px;
+  height:245px;
+  margin:auto;
+  background-color:black;
+  opacity:0.8;
+  position:absolute;
+  top:1250px;
+  right:0px;
+  left:0px;
+  margin-top:0px;
+  padding:30px 20px;
+}
+.ticket-contents{
+  width: 150px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align:center;
+}
+.date{
+font-size:45px;
+}
+.date,.day{
+
+}
+.image-wrapper{
+  vertical-align: middle;
+  display:inline-block;
+}
+.image{
+ width: 200px;
+  height: auto;
+
+}
+.image img{
+    height: auto;
+    width: 100%;
+}
+
+.button {
+  border-radius: 5px;
+  color:white;
+  border:solid thin;
+  text-decoration:none;
+  display:inline-block;
+  margin-left:300px;
+  padding:8px 50px;
+  font-size:16px;
+}
+.ticket-right{
+  display:inline-block;
+  vertical-align:middle;
+  margin-left: 30px;
+}
+.place,.caption,.peformers,.tips{
+ display:block;
+  padding-bottom:5px;
+}
+.peformers{
+  padding-bottom:10px;
+}
+.place{
+  font-size:45px;
+}
+.ticket-second{
+  width:972px;
+  height:245px;
+  margin:auto;
+  background-color:black;
+  opacity:0.8;
+  position:absolute;
+  top:1600px;
+  right:0px;
+  left:0px;
+  margin-top:0px;
+  padding:30px 20px;
+}
+
+.cd{
+  background-image:url("http://nuito.org/images/image_bg_disk.jpg");
+  height:450px;
+  background-size:cover;
+}
+.cd-info{
+  width:972px;
+  height:345px;
+  margin:auto;
+  background-color:black;
+  opacity:0.8;
+  position:absolute;
+  top:2150px;
+  right:0px;
+  left:0px;
+  margin-top:0px;
+  padding:30px 20px;
+}
+.cd-image{
+  display:inline-block;
+  padding-left:80px;
+}
+.cd-image img{
+    width:60%;
+}
+.cd-title{
+  display:inline-block;
+  color:white;
+  width:550px;
+  position:absolute;
+  top:65px;
+  left:390px;
+}
+.title{
+
+  font-size:50px;
+  line-height:50px;
+  /*ここの設定から*/
+}
+.cd-info-detail{
+  display:block;
+  font-size:20px;
+
+}
+.song-title{
+  display:block;
+  font-size:7px;
+  line-height:20px;
+}
+.listen-button{
+  display:block;
+  width:130px;
+  text-decoration:none;
+  color:white;
+  border-radius:2px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px 20px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.sort {
+  margin-top:15px;
+  border-top: 1px solid white;
+  font-size:7px;
+  opacity:0.5;
+  color:white;
+  text-align:right;
+
+}
+
+.sub-scription{
+  text-align:center;
+
+}
+.sub-scription img{
+ width:110px;
+ padding:0px 20px;
+}
+.purchase{
+  text-align:center;
+
+}
+.purchase img{
+ width:110px;
+  padding:0px 20px;
+}
+.cd-info-second{
+    width:972px;
+  height:345px;
+  margin:auto;
+  background-color:black;
+  opacity:0.8;
+  position:absolute;
+  top:2600px;
+  right:0px;
+  left:0px;
+  margin-top:0px;
+  padding:30px 20px;
+}
+.sub-title{
+  font-size:25px;
+  display:inline;
+}
+.store{
+  background-image:url("http://nuito.org/images/image_bg_store.jpg");
+  height:1300px;
+  background-repeat: no-repeat;
+  background-size:cover;
+  color:black;
+}
+.store-image{
+  text-align:center;
+}
+.store-image img{
+ width:100px;
+  padding-top:300px;
+}
+.store-title{
+  text-align:center;
+  font-size:60px;
+  padding-top:50px;
+   font-family: "DIN_1451 LT W01 Mittelschrift";
+}
+.store-button{
+   text-align:center;
+  padding-top:70px;
+
+}
+.store-button a{
+  border-radius: 2px;
+  color:black;
+  border-style:none;
+  text-decoration:none;
+  background-color:white;
+  padding:7px 25px;
+}
+.subscribe{
+  background-image:url("http://nuito.org/images/image_bg_subscribe.jpg");
+  height:1000px;
+  background-size:cover;
+   text-align:center;
+}
+.subscribe:hover{
+  background-color:black;
+}
+.sub-title{
+  color:white;
+}
+.sub-title p{
+display:inline-block;
+ padding-top:350px;
+  font-size:70px;
+  font-weight:lighter;
+  font-family: "HelveticaNeueW01";
+}
+.sub-icon{
+
+}
+.sub-icon img{
+  padding-left:40px;
+}
+.member{
+text-align:center;
+}
+.member-image{
+ display:inline-block;
+}
+.member-image img{
+  padding:50px 0px 0px 0px;
+  width:70%;
+}
+.member-info{
+  display:inline-block;
+  text-align:left;
+  vertical-align:top;
+  padding-top:90px;
+}
+.member-info p{
+  display:block;
+  font-size:50px;
+  text-align:left;
+  font-family: "HelveticaNeue";
+}
+.member-part p{
+ display:block;
+  font-size:14px;
+}
+.member-name{
+padding-left:50px;
+}
+.member-name a{
+  text-decoration:none;
+  color:black;
+}
+.member-name p{
+  display:block;
+  font-size:14px;
+
+}
+.member-wrapper{
+  display: flex;
+}
+
+.contact-form{
+  background-color:gray;
+  display:none;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top:80px;
+}
+.contact-form input{
+  margin:auto;
+  display:block;
+  margin-bottom:7px;
+
+}
+
+::-webkit-input-placeholder{
+  font-size:30px;
+  padding-left:20px;
+}
+.form-text::-webkit-input-placeholder{
+  top:-70px;
+  position:relative;
+}
+.form-name{
+  height:60px;
+  width:420px;
+}
+.form-mail{
+  height:60px;
+  width:420px;
+}
+.form-text{
+  height:200px;
+  width:420px;
+
+}
+.send-button{
+  padding-top:20px;
+}
+.send{
+ height:60px;
+ width:420px;
+ background-color:#FE7210;
+ font-size:24px;
+ color:white;
+}
+
+  .close {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    margin: 50px auto 0;
+    cursor: pointer;
+
+}
+.close::before{
+  transform: rotate(45deg);
+  content:"";
+  position:absolute;
+  height: 1px;
+  width: 117px;
+  background-color:white;
+  margin:auto;
+  top: 0;
+  bottom: 0;
+  left: -13.5px;
+  right: 0;
+}
+.close{
+  position: relative;
+    width: 90px;
+    height: 90px;
+    margin: 50px auto 0;
+    cursor: pointer;
+}
+.close::after{
+  transform: rotate(-45deg);
+  content:"";
+  position:absolute;
+  height: 1px;
+  width: 117px;
+  background-color:white;
+  margin:auto;
+  top: 0;
+  bottom: 0;
+  left: -13.5px;
+  right: 0;
+}
+footer{
+  padding:50px 0px;
+  text-align:center;
+}
+footer img{
+  width:14%;
+}
+
+@media(max-width:670px){
+  .wrap {
+	overflow: hidden;
+}
+  #scrollhead{
+  height: 16px;
+  display:flex;
+  }
+  .header-head{
+    display: flex;
+  }
+  .header-menu{
+    width:100%;
+    padding-left:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-menu a{
+    font-size:10px;
+  }
+  .header-image{
+    display:flex;
+    vertical-align:top;
+
+  }
+  .header-image img{
+    margin-left:10px;
+    height: :50px;
+    width:40px;
+
+  }
+  .top-wrapper img{
+  vertical-align:center;
+  height:15%;
+  width:10%;
+  display:block;
+  }
+  .ticket{
+    width:auto;
+  }
+  .ticket-first , .ticket-second , .cd-info-second{
+    width:auto;
+    height:500px;
+    padding-left:0;
+    padding-right:0;
+  }
+  .cd-info{
+    width:auto;
+    height:400px;
+    padding-right:0;
+     padding-left:0;
+  }
+    .store{
+    width:100%;
+    height:850px;
+}
+
+  .ticket-first {
+    top:920px;
+    text-align:center;
+  }
+  .ticket-second{
+   top:1520px;
+    text-align:center;
+  }
+  .day,.date{
+    display:inline-block;
+    padding-bottom:10px;
+  }
+  .date{
+    font-size:24px;
+  }
+  .day{
+    font-size:18px;
+  }
+  .place{
+    font-size:28px;
+    padding-top:14px;
+    padding-bottom:0 !important;
+  }
+  .caption{
+    font-size:16px;
+  }
+  .peformers,.tips{
+    font-size:14px;
+    padding-top:10px;
+  }
+  .tips{
+    padding-bottom:20px;
+  }
+  .image-wrapper{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+  }
+  .button{
+    font-size:14px;
+    text-align:center;
+    margin:0 auto;
+    display:block;
+   width:10%;
+    padding:10px 90px;
+    opacity:0.7;
+  }
+  .ticket-contents{
+
+  }
+  .ticket-right span{
+    padding-right:30px;
+  }
+  .cd-title,.cd-image{
+    width:auto;
+    display:block;
+    text-align: center;
+    position: static;
+  }
+  .cd-title span{
+    display:block;
+  }
+  .cd-image{
+    padding-right:82px;
+  }
+  .cd-image img{
+    width:40%;
+  }
+  .sub-scription img {
+    width:10%;
+  }
+  .purchase img {
+    width:10%;
+  }
+  .sort{
+    display:none;
+  }
+  .title{
+    font-size:30px;
+  }
+  .cd-info-detail{
+    font-size:10px;
+  }
+  .cd-info-second{
+    top:2650px;
+  }
+  .song-title{
+    width:70%;
+    display: table;
+    margin: 0 auto;
+  }
+  .listen-button{
+     font-size:14px;
+    text-align:center;
+    margin:0 auto;
+    display:block;
+    padding:10px 50px;
+    margin-top:20px;
+    margin-bottom:20px;
+    opacity:0.9;
+  }
+  .store-image img{
+    height:15%;
+    width:10%;
+  }
+  .store-title{
+    font-size:24px;
+  }
+  .sub-title p{
+    font-size:34px;
+  }
+  .sub-icon{
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-right: 35px;
+  }
+  .sub-icon img{
+   width:20%;
+    margin:auto;
+    padding-bottom:35px;
+
+  }
+  .member-image img{
+    width:50%;
+  }
+  .member-info{
+    padding-top:0px;
+    text-align:center;
+    width:100%;
+    margin:auto;
+  }
+  .member-title p{
+    font-size:24px;
+    margin:auto;
+    text-align:center;
+  }
+  .member-wrapper{
+   justify-content: center;
+  }
+  .contact-form{
+    background-color:gray;
+    display:none;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top:80px;
+  }
+  .contact-form input{
+    margin:auto;
+    display:block;
+    margin-bottom:7px;
+
+  }
+
+  ::-webkit-input-placeholder{
+    font-size:14px;
+    padding-left:20px;
+  }
+  .form-text::-webkit-input-placeholder{
+    top:-70px;
+    position:relative;
+  }
+  .form-name{
+    height:30px;
+    width:270px;
+  }
+  .form-mail{
+    height:30px;
+    width:270px;
+  }
+  .form-text{
+    height:100px;
+    width:270px;
+
+  }
+  .send-button{
+    padding-top:20px;
+  }
+  .send{
+   height:30px;
+   width:270px;
+   background-color:#FE7210;
+   font-size:10px;
+   color:white;
+  }
+
+    .close {
+      position: relative;
+      width: 90px;
+      height: 90px;
+      margin: 50px auto 0;
+      cursor: pointer;
+
+  }
+  .close::before{
+    transform: rotate(45deg);
+    content:"";
+    position:absolute;
+    height: 1px;
+    width: 117px;
+    background-color:white;
+    margin:auto;
+    top: 0;
+    bottom: 0;
+    left: -13.5px;
+    right: 0;
+  }
+  .close{
+    position: relative;
+      width: 90px;
+      height: 90px;
+      margin: 50px auto 0;
+      cursor: pointer;
+  }
+  .close::after{
+    transform: rotate(-45deg);
+    content:"";
+    position:absolute;
+    height: 1px;
+    width: 117px;
+    background-color:white;
+    margin:auto;
+    top: 0;
+    bottom: 0;
+    left: -13.5px;
+    right: 0;
+  }
