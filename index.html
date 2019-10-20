@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta charset="utf-8">
+  <link rel="stylesheet" href="stylesheet.css">
+	<title>NUITO</title>
+</head>
+<body>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript">
+  $(function(){
+  var header = $("#scrollhead");
+  var scrolly = 900;
+  $(window).scroll(function(){
+     if($(window).scrollTop() > scrolly){
+       header.fadeIn(1000);
+     } else {
+        header.css("display", "none");
+      } //else
+    if($(window).scrollTop() > 900 && $(window).scrollTop() < 1700 ){
+     $("a[href='#sec1']").css("color","orange")
+      $("a[href='#sec2']",).css("color","black")//900以上2000以下
+    }else if($(window).scrollTop() > 1700 && $(window).scrollTop() < 3000){
+         $("a[href='#sec2']").css("color","orange")
+      　$("a[href='#sec1']",).css("color","black")
+      $("a[href='#sec3']",).css("color","black")
+    }
+    else if($(window).scrollTop() > 3000 && $(window).scrollTop() < 4500){
+         $("a[href='#sec3']").css("color","orange")
+         $("a[href='#sec2']").css("color","black")
+      $("a[href='#sec4']").css("color","black")
+    }
+    else if($(window).scrollTop() > 4500 && $(window).scrollTop() < 5400){
+         $("a[href='#sec4']").css("color","orange")
+         $("a[href='#sec3']").css("color","black")
+         $("a[href='#sec5']").css("color","black")
+    }
+    else if($(window).scrollTop() > 5400 && $(window).scrollTop() < 6000){
+         $("a[href='#sec5']").css("color","orange")
+         $("a[href='#sec4']").css("color","black")
+         $("a[href='#sec3']").css("color","black")
+    }
+
+    }); //winfunc
+    }); //readyfunc
+
+
+  $(function(){
+    $('a[href^="#"]').click(function(){
+      var speed = 200;
+   var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top;
+      $("html, body").animate({scrollTop:position}, speed, "swing");
+      return false;
+
+    });
+  });　
+  $(function(){
+    $('#sec6').click(function(){
+      $(".contact-form").show();
+    });
+  }); //sec6以外をdisplay:none;　10/7
+  $(function(){
+    $('.close').click(function(){
+      $(".contact-form").hide();
+      $("#scrollhead").hide();
+    });
+  });
+</script>
+  <div class="wrap">
+  <header>
+    <div id="scrollhead">
+      <div class="header-head">
+		<div class="header-image"><img src="http://nuito.org/images/logo_text.png"></div>
+		<div class="header-menu">
+			<a href="#sec1">LIVE</a> <a href="#sec2" >DISK</a> <a href="#sec3" >STORE</a> <a href="#sec4">SUBSCRIBE</a> <a href="#sec5" >BIO</a> <a href="#" id="sec6">CONTACT</a>
+        </div>
+      </div>
+    </div>
+	</header>
+	<div class="top-wrapper"><img src="http://nuito.org/images/logo_black.png"></div>
+
+	<ol class="ticket" id="sec1">
+		<li class="ticket-first">
+			<div class="ticket-contents">
+				<span class="date">N/A</span> <span class="day">N/A</span>
+			</div>
+			<div class="image-wrapper">
+				<div class="image"><img src="http://nuito.org/images/image_na.png"></div>
+			</div>
+			<div class="ticket-right">
+				<span class="place">N/A</span> <span class="caption">N/A</span> <span class="peformers">w/N/A</span> <span class="tips">N/A</span>
+			</div>
+			<div class="button">
+				TICKET
+			</div>
+			<div class="space"></div>
+		</li>
+		<li class="ticket-second">
+			<div class="ticket-contents">
+				<span class="date">N/A</span> <span class="day">N/A</span>
+			</div>
+			<div class="image-wrapper">
+				<div class="image"><img src="http://nuito.org/images/image_na.png"></div>
+			</div>
+			<div class="ticket-right">
+				<span class="place">N/A</span> <span class="caption">N/A</span> <span class="peformers">w/N/A</span> <span class="tips">N/A</span>
+			</div>
+			<div class="button">
+				TICKET
+			</div>
+		</li>
+	</ol>
+	<div class="cd" id="sec2">
+		<div class="cd-info">
+			<div class="cd-image"><img src="http://nuito.org/images/image_package_unutella.jpg"></div>
+			<div class="cd-title">
+				<span class="title">Unutella</span> <span class="cd-info-detail">STNO-65535 CD-DA 7 Songs 31 min</span> <span class="song-title">1.Intrjctn 2.NeKoMaJiN vs 3.Tongpoo 4.looo(no)reque protocol 5.消ええらるる世界 6.Hinemos 7.弋</span>
+				<div class="listen-button">
+					LISTEN TO SOUND
+				</div>
+			</div>
+			<div class="sort">
+				DIGITAL/PHYSICAL
+			</div>
+			<div class="sub-scription"><img src="http://nuito.org/images/icon_sales_itunes.png"> <img src="http://nuito.org/images/icon_sales_googleplaymusic.png"> <img src="http://nuito.org/images/icon_sales_amazon_music.png"> <img src="http://nuito.org/images/icon_sales_spotify.png"> <img src="http://nuito.org/images/icon_sales_bandcamp.png"></div>
+			<div class="purchase"><img src="http://nuito.org/images/icon_sales_amazon_com.png"> <img src="http://nuito.org/images/icon_sales_amazon_uk.png"> <img src="http://nuito.org/images/icon_sales_amazon_jp.png"></div>
+		</div>
+	</div>
+	<div class="cd">
+		<div class="cd-info-second">
+			<div class="cd-image"><img src="http://nuito.org/images/image_package_nuutleg1.jpg"></div>
+			<div class="cd-title">
+				<span class="title">Nuutleg1</span> <span class="sub-title">(LIVE 2008) <span><span class="cd-info-detail">SDIGITAL DISTRIBUTION ALBUM 7 Songs 24 min</span> <span class="song-title">1.Intr 2.NeKoMaJiN vs (1of2) 3.URASHIMA EFFECTS (harf) 4.NeKoMaJiNvs (2of2) 5.疒 6.looo(no)reque protocol 7.消ええらるる世界</span></span></span>
+				<div class="listen-button">
+					LISTEN TO SOUND
+				</div>
+			</div>
+			<div class="sort">
+				DIGITAL/PHYSICAL
+			</div>
+			<div class="sub-scription"><img src="http://nuito.org/images/icon_sales_bandcamp.png"></div>
+		</div>
+	</div>
+  <div class="store" id="sec3">
+    <div class="store-image">
+      <img src="http://nuito.org/images/logo_black.png">
+    </div>
+    <div class="store-title">
+      STUDIO NUITO STORE
+    </div>
+    <div class="store-button">
+      <a href="#">GO TO STORE</a>
+    </div>
+  </div>
+  <div class="subscribe" id="sec4">
+    <div class="sub-title">
+      <p>SUBSCRIBE</p>
+    </div>
+    <div class="sub-icon">
+      <img class="facebook" src="http://nuito.org/images/icon_subscribe_facebook.png"><img class="twitter" src="http://nuito.org/images/icon_subscribe_twitter.png"><img class="soundcloud" src="http://nuito.org/images/icon_subscribe_soundcloud.png"><img class="youtube" src="http://nuito.org/images/icon_subscribe_youtube.png">
+    </div>
+  </div>
+  <div class="member" id="sec5">
+    <div class="member-image">
+    <img  src="http://nuito.org/images/image_bio.jpg">
+  </div>
+   <span class="member-info">
+     <span class="member-title">
+    <p>L -> R</p>
+     </span>
+     <span class="member-wrapper">
+     <span class="member-part">
+    <p>Guitar / Author</p>
+       <p>Bass</p>
+       <p>Drumss</p>
+     </span>
+    <span class="member-name">
+      <p><a href="#">Keiichiro Hirai</a></p>
+      <p>Atsushi Tomofuji</p>
+      <p>Sei Nagahata</p>
+     </span>
+  </span>
+    </span>
+    </div>
+  <div class="contact-form">
+  <form action="#"><!--コンタクトフォーム -->
+    <input class="form-name" type="text" placeholder="NAME">
+    <input class="form-mail" type="text" placeholder="MAIL">
+    <input class="form-text" type="text" placeholder="TXT">
+    <div class="send-button">
+      <input class="send" type="submit"  value="SEND!">
+    </div>
+  </form>
+    <div class="close">
+
+    </div>
+  </div>
+  <footer>
+    <img src="http://nuito.org/images/logo_bottom.png">
+  </footer>
+  </div>
+</body>
+</html>
