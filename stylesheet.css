@@ -1,3 +1,6 @@
+body{
+  margin:0;
+}
 .top-wrapper{
   margin-top:150px;
   height:737px;
@@ -429,8 +432,8 @@ footer img{
 }
 
 @media(max-width:670px){
-  .wrap {
-	overflow: hidden;
+.wrap {
+overflow: hidden;
 }
   #scrollhead{
   height: 16px;
